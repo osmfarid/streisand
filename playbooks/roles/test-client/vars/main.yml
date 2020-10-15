@@ -47,7 +47,7 @@ gateway_shadowsocks_qr: "{{ gateway_test_url }}/shadowsocks/shadowsocks-qr-code.
 shadowsocks_qr_file: "/root/shadowsocks-qr-code.png"
 
 # The gateway URL for clients to download the Shadowsocks2 Linux source
-gateway_shadowsocks_client: "{{ gateway_test_url }}/mirror/shadowsocks/shadowsocks2-linux-x64.gz"
+gateway_shadowsocks_client: "{{ gateway_test_url }}/mirror/shadowsocks/shadowsocks2-linux.gz"
 
 # Path to the Shadowsocks2 client source on the Streisand client
 shadowsocks_client: "/root/shadowsocks2-linux-x64"
